@@ -4,7 +4,7 @@ from tensorflow.keras import layers, callbacks
 from tensorflow import keras
 
 # Reading the Dataset
-path = "/kaggle/input/red-wine-quality-cortez-et-al-2009/winequality-red.csv"
+path = "winequality-red.csv"
 red_wine  = pd.read_csv(path)
 red_wine .head()
 # splitting the dataset
